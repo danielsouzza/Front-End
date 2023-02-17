@@ -1,0 +1,102 @@
+body{
+    align-items: center;
+    background-color: #1E1E1E;
+    font-family: sans-serif;
+}
+
+p{
+    align-self: center;
+    color: white;
+}
+
+a{
+    color: #4AD5FF;
+    text-decoration: none;
+}
+h2{
+    color: white;
+}
+
+label{
+    color: white;
+
+}
+
+input{
+    border-radius: 6px;
+    height: 40px;
+    border: none;
+    background-color: #202024;
+    margin: 10px 0px;
+}
+
+button{
+    font-size: 16px;
+    border: none;
+    border-radius: 6px;
+    height: 50px;
+    margin: 15px 0px;
+}
+
+#loginNormal{
+    color: white;
+    background-color: #4AD5FF;
+}
+
+#loginWithAnotherAccount{
+    align-items:center;
+}
+
+.content {
+    height: 1000px;
+    width: 400px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center ;
+    border-radius: 10px;
+    padding-top: 50px;
+}
+
+.main-box h2{
+    font-style: bold;
+    font-size: 60px;
+}
+
+.main-box {
+    background-color: #121214;
+    align-items: center;
+    border-radius: 20px;
+    margin-left: 650px;
+    margin-right: 650px;
+    flex-direction: column;
+    margin-top: 50px;
+    display: flex;
+}
+
+#loginWithAnotherAccount{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 0;
+    gap: .4rem;
+
+}
+#loginWithAnotherAccount img{
+    width: 2rem;
+    height: 2rem;
+}
+
+#img_perfil{
+    border-radius: 50%;
+    align-self: center;
+    width: 150px;
+    height: 150px;
+}
+
+#img_logo{
+    align-self: center;
+    width: 150px;
+    height: 150px;
+}
+
+
