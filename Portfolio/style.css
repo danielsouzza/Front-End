@@ -16,7 +16,7 @@
 
 body{
     background: var(--color-back);
-    padding: 2rem 2rem 1rem 2rem;
+    padding: 2rem 1.5rem 1rem 1.5rem;
 }
 
 .conteainer{
@@ -31,7 +31,6 @@ body{
     display: flex;
     flex-direction: column;
     gap: 30px;
-    grid-area: "perfil";
 }
 
 .theme{
@@ -264,6 +263,8 @@ body{
 
 .emphasis{
     display: flex;
+    flex-wrap: wrap;
+    align-items: center;
     min-height: 200px;
     padding: 30px;
     gap: 1.5rem;
@@ -292,7 +293,7 @@ body{
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    gap: 1.5rem;
+    gap: 1rem;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -307,3 +308,22 @@ body{
     margin-top: 20px;
 }
 
+@media screen and (max-width: 1158px){
+    .emphasis {
+        justify-content: center;
+    }
+}
+
+footer{
+    margin-top: 1rem ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h2{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+}
