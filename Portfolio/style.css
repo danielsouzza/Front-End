@@ -216,14 +216,28 @@ body{
 .icon-align{
     margin: 1rem 0;
     display: flex;
+    line-height: 0;
     align-items: center;
-    flex-wrap: nowrap;
+    justify-content: space-between;
+    flex-wrap: wrap;
     gap: .5rem;
 }
 
-.icon-align:nth-last-child(){
-    align-self: end;
+.icon-align div{
+    display: flex;
+    align-items: center;
+    gap: .8rem;
 }
+
+.icon-align span::before{
+    content: '';
+    border-radius: 50%;
+    background-color: #E7DE79;
+    border: 2px solid #837E9F;
+    width: 10px;
+    height: 10px;
+}
+
 
 
 .project-item a{
